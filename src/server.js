@@ -27,8 +27,8 @@ wss.on("connection",(socket) => {
     console.log("Connected to Brower");
     socket.on("close", onSocketClose);
     socket.on("message", (message) => {
-        socket.forEach((aSocket) => aSocket.send(message));
-    });
+        sockets.forEach((aSocket) => aSocket.send(message));
+      });
 });
 
 server.listen(3000,handleListen);
