@@ -17,6 +17,7 @@
     "express": "^4.17.3",
     "nodejs-websocket": "^1.7.2",
     "pug": "^3.0.2",
+    "socket.io": "^4.4.1",
     "ws": "^7.5.3"
   }
 }
